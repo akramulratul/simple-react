@@ -2,6 +2,7 @@ import React from 'react';
 
 const Cart = (props) => {
     const cart = props.cart;
+
     
 //For Total Value Calculate
     let total =0;

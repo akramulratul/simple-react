@@ -21,6 +21,6 @@
   display: flex;
   margin: 10px;
 }
-.btn-disabled {
+.btn-disable {
   pointer-events: none;
 }

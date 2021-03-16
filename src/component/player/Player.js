@@ -14,6 +14,7 @@ const handleAddProduct = (product) =>{
     const newCart = [...cart, product]
     setCart(newCart);
 }
+console.log(cart);
     return (
         <div className="container">
         <div className="player-container">
@@ -24,9 +25,10 @@ const handleAddProduct = (product) =>{
                         product ={pdDetails}></Product>)
                     }
             </div>
+            
             <div className="">
                 {
-                <Cart cart = {cart}></Cart>
+                <Cart cart = {cart} key={cart.name}></Cart>
                 }
             
             </div>
